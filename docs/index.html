@@ -21,16 +21,14 @@
     }
     .content-container {
         width: 750px;
-        /* border-right: 1px solid #CFD7DE;
-        border-left: none; */
-        border-right: red;
-        border-left: red;
+        border-right: 1px solid #CFD7DE;
+        border-left: none;
         padding: 0;
     }
     .main-container {
         width: 840px;
-        /* border-left: 1px solid #CFD7DE; */
-        /* border-right: 1px solid #CFD7DE; */
+        border-left: 1px solid #CFD7DE;
+        border-right: 1px solid #CFD7DE;
         margin-left: 22.5%;
         padding: 0 0 0 30px;
     }
@@ -233,7 +231,7 @@
     }
 </style>
 <body>
-<div class='main-container' style='border-left:red;border-right:red'>
+<div class='main-container' style='border-left:none;border-right:none'>
     <img src='img/header.png'
         style='width:760px'>
     <h1>
@@ -264,7 +262,7 @@
             </a>
         </span>
     </div>
-<div class='main-container' style='border-right: red;border-left: red;'>
+<div class='main-container'>
     <div id="toc_container">
             <div class='toc_title'>
                 <p>Содержание <a class='anchor' id="#toc"></a> </p>
@@ -284,7 +282,7 @@
             class='anchor'
             id='review'>
             </a>
-        1. Постановка задачи5
+        1. Постановка задачи1
         </h2>
     <div class='content-container'>
         <button onclick="scrollToID('links')" id="toTocBtn">
